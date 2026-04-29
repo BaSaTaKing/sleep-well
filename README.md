@@ -1,7 +1,3 @@
-Here’s your **README (English, polished + professional + suitable for GitHub / evaluation submission)** — you can copy directly:
-
----
-
 # 💤 Sleep Health Analysis & Community System
 
 > An AI-driven sleep data analysis and community platform based on Django + Vue.js + Element Plus
