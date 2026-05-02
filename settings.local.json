@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git config *)",
+      "Bash(git -c user.name=\"admin\" -c user.email=\"admin@example.com\" commit -m \"Initial commit: healthy sleep data system\")",
+      "Bash(git remote *)",
+      "Bash(git push *)",
+      "Bash(python -m py_compile app/views.py)",
+      "Bash(python -m py_compile app/utils/getEchartsData.py)",
+      "Bash(python -m py_compile app/utils/getPublicData.py)",
+      "Bash(python -m py_compile app/utils/getHomeData.py)",
+      "Bash(python -m py_compile app/utils/getAddCommentsData.py)",
+      "Bash(python -m py_compile app/utils/auth.py)",
+      "Bash(python -m py_compile sleep_analysis/views.py)",
+      "Bash(python -m py_compile efficiency_analysis/views.py)",
+      "Bash(python -m py_compile app/utils/common.py)",
+      "Bash(python -m py_compile health_management/settings.py)",
+      "Bash(python -m py_compile ml_models/train_model.py)",
+      "Bash(python -m py_compile ml_models/train_efficiency_model.py)",
+      "Bash(python ml_models/train_model.py)",
+      "Bash(pip list *)",
+      "Bash(pip install *)",
+      "Read(//d/APP/anaconda/**)",
+      "Bash(\"D:\\\\APP\\\\anaconda\\\\python.exe\" --version)",
+      "Read(//d/APP/anaconda/envs/**)",
+      "Bash(python -m py_compile scripts/generate_eval_plots_cls.py)",
+      "Bash(python -m py_compile scripts/generate_eval_plots_reg.py)",
+      "Bash(python -m py_compile app/models.py)",
+      "Bash(python -m py_compile app/admin.py)",
+      "Bash(python -m py_compile middleware/userMiddleware.py)"
+    ]
+  }
+}
